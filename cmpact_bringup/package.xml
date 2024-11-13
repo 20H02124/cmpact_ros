@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>cmpact_bringup</name>
+  <version>0.0.1</version>
+  <description>The cmpact_bringup package</description>
+
+  <maintainer email="yuki.st16@gmail.com">Yuki Onishi</maintainer>
+  <author email="yuki.st16@gmail.com">Yuki Onishi</author>
+
+  <license>Apache 2.0</license>
+
+  <exec_depend>microstrain_inertial_driver</exec_depend>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+</package>

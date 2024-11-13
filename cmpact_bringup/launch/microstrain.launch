@@ -1,0 +1,7 @@
+<?xml version="1.1"?>
+
+<launch>
+  <node name="microstrain_node" pkg="microstrain_inertial_driver" type="microstrain_inertial_driver_node" output="screen">
+    <rosparam file="$(find cmpact_bringup)/config/microstrain_params.yml" command="load" />
+  </node>
+</launch>
